@@ -1,0 +1,6 @@
+framework module Pods_WordSkill_Alireza_Toghyiani_Iran {
+  umbrella header "Pods-WordSkill-Alireza-Toghyiani-Iran-umbrella.h"
+
+  export *
+  module * { export * }
+}

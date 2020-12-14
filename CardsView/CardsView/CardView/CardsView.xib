@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardsView" customModule="CardsView" customModuleProvider="target">
+            <connections>
+                <outlet property="cardImageView" destination="Pu5-rW-VeQ" id="AiW-RL-J9u"/>
+                <outlet property="cardsView" destination="iN0-l3-epB" id="VGq-Dp-VPa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="420"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EmptyList" translatesAutoresizingMaskIntoConstraints="NO" id="Pu5-rW-VeQ">
+                    <rect key="frame" x="5" y="5" width="310" height="410"/>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="Pu5-rW-VeQ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="I77-sA-SAk"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Pu5-rW-VeQ" secondAttribute="bottom" constant="5" id="iao-DV-REv"/>
+                <constraint firstItem="Pu5-rW-VeQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="j65-Ie-1Ui"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Pu5-rW-VeQ" secondAttribute="trailing" constant="5" id="qQ6-nm-OHa"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-203" y="145"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="EmptyList" width="213" height="198"/>
+    </resources>
+</document>
